@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eldy-shop</title>
+
+
+    <!-- -------fav-icon----- -->
+    <link rel="icon" href="assets/images/favicon.jpg">
+    <!-- -----bootstrap-------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- ---animkate.css--------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- -------fonts---- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- ----stylesheet---- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- ---------header-start-------------- -->
+    <nav class="text-white py-1"
+        style="font-size: 12px;  font-family: 'Lato', sans-serif;font-weight: 400;background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 d-flex">
+                    <div class="me-5">
+                        <a href="#" class="d-flex align-items-center">
+                            <i class="fa-solid fa-phone me-2" style="font-size: 14px;"></i>
+                            <p class="mb-0">0973678967</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="d-flex align-items-center">
+                            <i class="fa-solid fa-envelope me-2 " style="font-size: 14px;"></i>
+                            <p class="mb-0">support@edly.com</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <p class="mb-0">
+                        Get an extra -10% off with code: ELDY10
+                    </p>
+                </div>
+                <div class="col-4  d-flex justify-content-end">
+                    <a href="#" class="me-3"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="me-3"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="py-4 shadow p-3 bg-body rounded position-sticky top-0" style="z-index: 999;">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-3">
+                    <div class="logo">
+                        <a href="#"> <img src="assets/images/logo.png" alt="" width="59px" height=""></a>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="menu">
+                        <ul class="mb-0 d-flex justify-content-around">
+                            <li class="text-uppercase" style=" font-family: 'Lato', sans-serif;font-size: 14px;">
+                                <a href="/">home</a>
+                            </li>
+                            <li class="text-uppercase" style=" font-family: 'Lato', sans-serif;font-size: 14px;">
+                                <a href="/shop">shop</a>
+                            </li>
+                            <li class="text-uppercase" style=" font-family: 'Lato', sans-serif;font-size: 14px;">
+                                <a href="/blog">blog</a>
+                            </li>
+                            <li class="text-uppercase" style=" font-family: 'Lato', sans-serif;font-size: 14px;">
+                                <a href="/contact">contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2 p-0">
+                    <div class="service ">
+                        <ul class="mb-0 d-flex justify-content-between">
+
+                            </li>
+                            <li>
+                                <a href="#" style="font-size: 14px;"><i class="fa-regular fa-heart"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" style="font-size: 14px;"><i class="fa-solid fa-bag-shopping"></i></a>
+                            </li>
+                            <li>
+                                <a href="" style="font-size: 14px;"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </li>
+                            <li>
+                                <a href="/logout" style="font-size: 14px;"><i class="fa-solid fa-right-from-bracket"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ---------header-end-------------- -->
+
+
+    <!-- -----------slider-1-start---------- -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 p-0">
+                    <div class="img overflow-hidden position-relative">
+                        <img src="assets/images/banner-18.jpg" alt="" srcset="" width="" class="img-fluid">
+                        <div class="content position-absolute top-50 start-50 translate-middle">
+                            <p class="text-white mb-5" style="font-size: 30px;font-weight: 600;">Luxury Wedding Jewelry
+                            </p>
+                            <a href="/shop" class="btn bg-light p-3 d-block mx-auto"
+                                style="border-radius: 1px;font-size: 12px;font-weight: 500;width: 150px;">Shop Now<i
+                                    class="fa-solid fa-arrow-right ms-2  "></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-6 p-0">
+                    <div class="img overflow-hidden position-relative">
+                        <img src="assets/images/banner-19.jpg" alt="" srcset="" width="" class="img-fluid">
+                        <div class="content position-absolute top-50 start-50 translate-middle">
+                            <p class="text-white mb-5" style="font-size: 30px;font-weight: 600;">Fine Jewelry Rings</p>
+                            <a href="/shop" class="btn bg-light p-3 d-block mx-auto"
+                                style="border-radius: 1px;font-size: 12px;font-weight: 500;width: 150px;">Shop Now<i
+                                    class="fa-solid fa-arrow-right ms-2  "></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------slider-1-end---------- -->
+
+    <!-- -----------brands-start------------ -->
+    
+    <section>
+        <div class="container py-5">
+            <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                <div class="col-2">
+                    <div class="img" style="width: 152px;">
+                        <img src="assets/images/brand-1.png" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img" style="width: 152px;">
+                        <img src="assets/images/brand-2.png" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img" style="width: 152px;">
+                        <img src="assets/images/brand-3.png" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img" style="width: 152px;">
+                        <img src="assets/images/brand-4.png" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img" style="width: 152px;">
+                        <img src="assets/images/brand-5.png" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="img" style="width: 152px;">
+                        <img src="assets/images/brand-6.png" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------brands-end------------ -->
+
+    <!-- ----------------gifts-start--------------- -->
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-4">
+                    <div class="img" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                        <img src="assets/images/favicon.jpg" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="img" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                        <img src="assets/images/banner-21.jpg" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="col-4 d-flex align-items-center">
+                    <div class="content text-center " data-aos="fade-left" data-aos-delay="300">
+                        <p class="text-black mb-3" style="font-size: 45px;">A Special Gift For You</p>
+                        <p class="text-black mb-3" style="font-size: 20px; font-family: 'Lato', sans-serif;">GOLD LUXURY
+                            JEWELLRY</p>
+                        <a href="/shop" class="btn bg-dark text-white p-3 d-block mx-auto"
+                            style="border-radius: 1px;font-size: 12px;font-weight: 500;width: 150px;">Shop Now<i
+                                class="fa-solid fa-arrow-right ms-2  "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------gifts-end--------------- -->
+
+    <!-- -------------/produts-start------------ -->
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 title mb-3 d-flex justify-content-between align-items-center" data-aos="fade-up">
+                    <p style="font-size: 30px;" class="text-uppercase">Trending Products</p>
+                    <p style="font-family: 'Lato', sans-serif;" class="m-0 text-uppercase"><a href="/shop"
+                            style="text-decoration: underline;">more</a></p>
+                </div>
+                <div class="col-3">
+                    <div class="box" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                        <div class="img-1 mb-3">
+                            <img src="assets/images/product-17-600x600.jpg" alt="" width="100%">
+                        </div>
+                        <div class="img-2 mb-3 ">
+                            <img src="assets/images/product-17-3-600x600.jpg" alt="" width="100%">
+                        </div>
+                        <div class="content" style="font-family: 'Lato', sans-serif;">
+                            <a href="product-1.html" class="m-0 text-uppercase">open hoop earrings</a>
+                            <p>$100.00</p>
+                            <div class="bottons d-flex justify-content-between">
+                                <div class="btn bg-dark p-3 d-block text-white"
+                                    style="border-radius: 1px;font-size: 12px;font-weight: 500;width: 75%;">ADD TO
+                                    CART<i class="fa-solid fa-arrow-right ms-2  "></i></div>
+                                <div class="btn bg-white  d-block text-black"
+                                    style="border-radius: 1px;font-size: 25px;font-weight: 500;width: 20%;border: 2px solid black;">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="box" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                        <div class="img-1 mb-3">
+                            <img src="assets/images/product-1-600x600.jpg" alt="" width="100%">
+                        </div>
+                        <div class="img-2 mb-3 ">
+                            <img src="assets/images/product-1-1-600x600.jpg" alt="" width="100%">
+                        </div>
+                        <div class="content" style="font-family: 'Lato', sans-serif;">
+                            <p class="m-0 text-uppercase">pearl and crystal necklace</p>
+                            <p>$250.00</p>
+                            <div class="bottons d-flex justify-content-between">
+                                <div class="btn bg-dark p-3 d-block text-white"
+                                    style="border-radius: 1px;font-size: 12px;font-weight: 500;width: 75%;">ADD TO
+                                    CART<i class="fa-solid fa-arrow-right ms-2  "></i></div>
+                                <div class="btn bg-white  d-block text-black"
+                                    style="border-radius: 1px;font-size: 25px;font-weight: 500;width: 20%;border: 2px solid black;">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="box" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                        <div class="img-1 mb-3">
+                            <img src="assets/images/product-13-600x600.jpg" alt="" width="100%">
+                        </div>
+                        <div class="img-2 mb-3 ">
+                            <img src="assets/images/product-13-1-600x600.jpg" alt="" width="100%">
+                        </div>
+                        <div class="content" style="font-family: 'Lato', sans-serif;">
+                            <p class="m-0 text-uppercase">flower pearl earrings</p>
+                            <p>$150.00</p>
+                            <div class="bottons d-flex justify-content-between">
+                                <div class="btn bg-dark p-3 d-block text-white"
+                                    style="border-radius: 1px;font-size: 12px;font-weight: 500;width: 75%;">ADD TO
+                                    CART<i class="fa-solid fa-arrow-right ms-2  "></i></div>
+                                <div class="btn bg-white  d-block text-black"
+                                    style="border-radius: 1px;font-size: 25px;font-weight: 500;width: 20%;border: 2px solid black;">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-5">
+                    <div class="box" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                        <div class="img-1 mb-3">
+                            <img src="assets/images/product-360-1-600x600.jpg" alt="" width="100%">
+                        </div>
+                        <div class="img-2 mb-3 ">
+                            <img src="assets/images/product-360-2-600x600.jpg" alt="" width="100%">
+                        </div>
+                        <div class="content" style="font-family: 'Lato', sans-serif;">
+                            <p class="m-0 text-uppercase">sparkle earrings</p>
+                            <p>$100.00</p>
+                            <div class="bottons d-flex justify-content-between">
+                                <div class="btn bg-dark p-3 d-block text-white"
+                                    style="border-radius: 1px;font-size: 12px;font-weight: 500;width: 75%;">ADD TO
+                                    CART<i class="fa-solid fa-arrow-right ms-2  "></i></div>
+                                <div class="btn bg-white  d-block text-black"
+                                    style="border-radius: 1px;font-size: 25px;font-weight: 500;width: 20%;border: 2px solid black;">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------------/produts-end------------ -->
+
+    <!-- -----------watch-video-start------------ -->
+    <section>
+        <div class="container py-5">
+            <div class="col-12">
+                <div class="box d-flex" style="width: 100%; height: 80vh; background-color: black;">
+                    <div class="col-6 d-flex justify-content-center align-items-center" style="height: 100%;">
+                        <div style="width: 60%;">
+                            <p class="text-white mb-3" style="font-size: 40px;">Stand Out In Style</p>
+                            <p class="text-white mb-3" style="font-size: 16px; font-family: 'Lato', sans-serif;">Aliquam
+                                blandit dolor sed porta egestas. Duis dui nibh,
+                                placerat id leo nec, tempus posuere ligula.</p>
+                        </div>
+                    </div>
+                    <div class="col-6  d-flex justify-content-center align-items-center position-relative">
+
+                        <img src="assets/images/banner-video2.jpg" alt="" width="90%" height="70%"
+                            style="object-fit: contain;">
+                        <div class="play position-absolute top-50 start-50 translate-middle">
+                            <a id="play-video" class="video-play-button" href="#">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------watch-video-end------------ -->
+
+    <!-- --------------slider-2-start----------- -->
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-12">
+                        <div class="img">
+                            <img src="assets/images/banner-22.jpg" alt="" srcset="" width="100%">
+                        </div>
+                    </div>
+                    <div class="col-12" data-aos="fade-up-right">
+                        <div class="text py-5">
+                            <p style="font-size: 30px;" class="text-uppercase text-center">Up to 29% discount</p>
+                            <p style="font-size: 14px; font-family: 'Lato', sans-serif;" class=" text-center">Lorem
+                                ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fermentum
+                                aliquet laoreet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="col-12" data-aos="fade-up-left">
+                        <div class="text py-5">
+                            <p style="font-size: 30px;" class="text-uppercase text-center">Necklaces for Women</p>
+                            <p style="font-size: 14px; font-family: 'Lato', sans-serif;" class=" text-center">Lorem
+                                ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fermentum
+                                aliquet laoreet.</p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="img">
+                            <img src="assets/images/banner-23.jpg" alt="" srcset="" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------slider-2-end----------- -->
+
+    <!-- ----------quote-start------ -->
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="quote"
+                        style="border-top: 2px solid rgba(199, 199, 199, 0.404);border-bottom: 2px solid rgba(199, 199, 199, 0.404);">
+                        <p style="font-size: 29px;" class=" text-center p-5">"Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Soluta, error. Cum deserunt temporibus sapiente iusto, sunt ea incidunt
+                            consequatur minima eligendi itaque quidem, ab suscipit ex perferendis vel" </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------quote-end------ -->
+    <!-- ---------services-start---------- -->
+    <section>
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    <div class="service d-flex justify-content-between"
+                        style="border-bottom: 2px solid rgba(199, 199, 199, 0.404);">
+                        <div class="col-4">
+                            <div class="box text-center py-5 mx-auto" style="width: 50%;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54"
+                                    fill="none">
+                                    <path
+                                        d="M26.6406 0C23.5469 0 20.5391 0.515625 17.6172 1.54688C17.1875 1.71875 16.9297 2.23438 17.1016 2.66406C17.2734 3.09375 17.7891 3.35156 18.2188 3.17969C20.8828 2.23437 23.7188 1.71875 26.6406 1.71875C28.5312 1.71875 30.4219 1.97656 32.2266 2.32031L31.4531 4.64062C31.1953 5.41406 31.2812 6.27344 31.5391 6.875L32.1406 8.16406C32.3125 8.50781 32.8281 8.85156 33.2578 8.59375C33.6875 8.33594 33.8594 7.90625 33.6875 7.47656L33.0859 6.1875C32.9141 5.92969 32.9141 5.58594 33.0859 5.24219L33.9453 2.75C42.1953 5.32812 48.7266 12.1172 50.7891 20.625H48.5547C48.0391 20.625 47.6094 20.3672 47.4375 19.9375L46.9219 18.8203C46.4062 17.7891 45.375 17.1016 44.2578 17.1016H42.9688C42.5391 17.1016 42.1953 16.8438 42.1094 16.7578L40.3906 15.0391C39.5312 14.1797 38.2422 13.9219 36.9531 14.4375C36.9531 14.4375 34.9766 15.3828 34.7188 15.3828H30.5078C29.8203 15.3828 29.2188 14.7812 29.2188 14.0938C29.2188 13.5781 29.4766 13.1484 29.9062 12.9766L31.8828 12.0312C32.3125 11.8594 32.4844 11.3438 32.3125 10.9141C32.1406 10.4844 31.625 10.3125 31.1953 10.4844L29.2188 11.4297C28.1875 11.8594 27.5 12.9766 27.5 14.0938C27.5 15.8125 28.7891 17.1016 30.5078 17.1016H34.7188C35.2344 17.1016 37.6406 15.9844 37.6406 15.9844C37.9844 15.8125 38.6719 15.7266 39.1875 16.2422L40.9062 17.9609C41.4219 18.4766 42.1953 18.8203 42.9688 18.8203H44.2578C44.6875 18.8203 45.2031 19.1641 45.375 19.5078L45.8906 20.625C46.3203 21.6562 47.4375 22.3438 48.5547 22.3438H51.2188C51.3906 23.4609 51.5625 24.5781 51.5625 25.7812H48.8125C47.8672 25.7812 47.0938 25.2656 46.6641 24.9219C46.6641 24.9219 44.1719 22.4297 43.8281 22.2578L39.9609 19.6797C39.1875 19.1641 38.2422 18.8203 37.2969 18.8203H30.25C28.7031 18.8203 27.2422 19.5938 26.3828 20.9688L24.1484 24.4922C23.8906 24.9219 23.9766 25.4375 24.4062 25.6953C24.8359 25.9531 25.3516 25.8672 25.6094 25.4375L27.8438 21.9141C28.3594 21.0547 29.3047 20.5391 30.3359 20.5391H37.3828C37.9844 20.5391 38.5859 20.7109 39.0156 21.0547L42.8828 23.6328C43.0547 23.7188 45.4609 26.125 45.4609 26.125C46.4062 26.9844 47.6094 27.5 48.8125 27.5H51.5625C51.3906 32.6562 49.6719 37.4688 46.5781 41.5938C46.3203 41.9375 46.4062 42.5391 46.75 42.7969C47.1797 43.1406 47.7812 42.8828 47.9531 42.625C51.4766 37.9844 53.2812 32.4844 53.2812 26.6406C53.2812 11.9453 41.3359 0 26.6406 0ZM6.01562 23.8047L8.25 20.4531C8.25 20.3672 9.10938 19.5938 9.10938 19.5938C9.88281 18.9062 10.3125 17.875 10.3125 16.7578C10.3125 16.7578 9.96875 15.2969 11 14.3516L12.2891 13.0625C13.2344 12.0313 13.5781 10.6562 13.2344 9.36719L12.4609 6.1875C13.1484 5.67188 13.9219 5.24219 14.6953 4.8125C15.125 4.55469 15.2969 4.03906 15.0391 3.60937C14.7812 3.17969 14.2656 3.00781 13.8359 3.26563C5.32813 7.90625 0 16.8438 0 26.6406C0 31.7109 1.46094 36.6094 4.125 40.9062C4.29688 41.1641 4.55469 41.3359 4.8125 41.3359C4.98438 41.3359 5.15625 41.3359 5.24219 41.1641C5.67188 40.9062 5.75781 40.3906 5.5 39.9609C3.09375 36.0078 1.71875 31.3672 1.71875 26.6406C1.71875 18.9922 5.24219 11.9453 11 7.21875L11.6016 9.71094C11.7734 10.3984 11.5156 11.2578 11.0859 11.8594L9.79688 13.1484C8.16406 14.2656 8.59375 16.7578 8.59375 16.7578C8.59375 17.3594 8.33594 17.875 7.90625 18.3047C7.90625 18.3047 6.875 19.4219 6.875 19.5078L4.64062 22.9453C3.86719 24.1484 4.03906 26.2109 4.64062 27.5C4.8125 27.8438 5.24219 28.1875 5.75781 27.8438C6.1875 27.5859 6.35938 27.1562 6.10156 26.7266C5.75781 25.8672 5.67188 24.4062 6.01562 23.8047Z"
+                                        fill="#000000"></path>
+                                    <path
+                                        d="M40.3047 32.9141C39.6172 31.7109 38.2422 30.9375 36.8672 30.9375H30.9375V30.1641C30.9375 28.7031 29.7344 27.5 28.2734 27.5H9.53906C8.07813 27.5 6.875 28.7031 6.875 30.1641V47.0937C6.875 48.5547 8.07813 49.7578 9.53906 49.7578H10.3984C10.8281 51.7344 12.5469 53.1953 14.6094 53.1953C16.6719 53.1953 18.3906 51.7344 18.8203 49.7578H32.7422C33.1719 51.7344 34.8906 53.1953 36.9531 53.1953C37.4688 53.1953 37.8125 52.8516 37.8125 52.3359C37.8125 51.8203 37.4688 51.4766 36.9531 51.4766C35.4922 51.4766 34.375 50.3594 34.375 48.8984C34.375 47.4375 35.4922 46.3203 36.9531 46.3203C38.4141 46.3203 39.5312 47.4375 39.5312 48.8984C39.5312 49.5859 39.2734 50.2734 38.7578 50.7031C38.4141 51.0469 38.4141 51.5625 38.7578 51.9062C39.1016 52.25 39.6172 52.25 39.9609 51.9062C40.5625 51.3047 40.9922 50.5312 41.1641 49.7578H42.1953C43.5703 49.7578 44.6875 48.6406 44.6875 47.2656C44.6875 46.75 44.3438 46.4062 43.8281 46.4062C43.3125 46.4062 42.9688 46.75 42.9688 47.2656C42.9688 47.6953 42.625 48.0391 42.1953 48.0391H41.1641C40.7344 46.0625 39.0156 44.6016 36.9531 44.6016C34.8906 44.6016 33.1719 46.0625 32.7422 48.0391H30.9375V32.6562H32.6562V40.3906C32.6562 40.9062 33 41.25 33.5156 41.25H42.9688V44C42.9688 44.5156 43.3125 44.8594 43.8281 44.8594C44.3438 44.8594 44.6875 44.5156 44.6875 44V40.2187C44.6875 40.0469 40.3047 32.9141 40.3047 32.9141ZM14.6094 51.5625C13.1484 51.5625 12.0312 50.4453 12.0312 48.9844C12.0312 47.5234 13.1484 46.4062 14.6094 46.4062C16.0703 46.4062 17.1875 47.5234 17.1875 48.9844C17.1875 50.4453 16.0703 51.5625 14.6094 51.5625ZM29.2188 41.25H14.6094C14.0938 41.25 13.75 41.5937 13.75 42.1094C13.75 42.625 14.0938 42.9687 14.6094 42.9687H29.2188V48.125H18.8203C18.3906 46.1484 16.6719 44.6875 14.6094 44.6875C12.5469 44.6875 10.8281 46.1484 10.3984 48.125H9.53906C9.02344 48.125 8.59375 47.6953 8.59375 47.1797V42.9687H11.1719C11.6875 42.9687 12.0312 42.625 12.0312 42.1094C12.0312 41.5937 11.6875 41.25 11.1719 41.25H8.59375V30.1641C8.59375 29.6484 9.02344 29.2187 9.53906 29.2187H28.1875C28.7031 29.2187 29.1328 29.6484 29.1328 30.1641V41.25H29.2188ZM34.375 39.5312V32.6562H36.8672C37.6406 32.6562 38.4141 33.0859 38.8438 33.7734L42.2812 39.5312H34.375Z"
+                                        fill="#000000"></path>
+                                    <path
+                                        d="M12.8906 30.9375H11.1719C10.6562 30.9375 10.3125 31.2812 10.3125 31.7969V33.5156C10.3125 34.0312 10.6562 34.375 11.1719 34.375C11.6875 34.375 12.0312 34.0312 12.0312 33.5156V32.6562H12.8906C13.4062 32.6562 13.75 32.3125 13.75 31.7969C13.75 31.2812 13.4062 30.9375 12.8906 30.9375ZM21.4844 46.4062H26.6406C27.1562 46.4062 27.5 46.0625 27.5 45.5469C27.5 45.0312 27.1562 44.6875 26.6406 44.6875H21.4844C20.9688 44.6875 20.625 45.0312 20.625 45.5469C20.625 46.0625 20.9688 46.4062 21.4844 46.4062Z"
+                                        fill="#000000"></path>
+                                    <path
+                                        d="M36.9531 49.8438C37.4277 49.8438 37.8125 49.459 37.8125 48.9844C37.8125 48.5098 37.4277 48.125 36.9531 48.125C36.4785 48.125 36.0938 48.5098 36.0938 48.9844C36.0938 49.459 36.4785 49.8438 36.9531 49.8438Z"
+                                        fill="#000000"></path>
+                                    <path
+                                        d="M14.6094 49.8438C15.084 49.8438 15.4688 49.459 15.4688 48.9844C15.4688 48.5098 15.084 48.125 14.6094 48.125C14.1348 48.125 13.75 48.5098 13.75 48.9844C13.75 49.459 14.1348 49.8438 14.6094 49.8438Z"
+                                        fill="#000000"></path>
+                                </svg>
+                                <p style="font-size: 16px;" class="my-2">Shipping Worldwide </p>
+                                <p style="font-size: 12px; font-family: 'Lato', sans-serif;">Lorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipiscing elit </p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="box text-center py-5 mx-auto" style="width: 50%;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="48" viewBox="0 0 50 48"
+                                    fill="none">
+                                    <path
+                                        d="M1.34223 25.3713L6.50012 29.0588C6.59877 29.129 6.7103 29.1791 6.82833 29.2063C6.94637 29.2334 7.06859 29.237 7.18801 29.2169C7.30744 29.1968 7.42174 29.1533 7.52436 29.089C7.62699 29.0247 7.71594 28.9408 7.78614 28.8421L11.4736 23.6842C11.5442 23.5853 11.5945 23.4734 11.6218 23.355C11.649 23.2365 11.6527 23.1139 11.6326 22.9941C11.6125 22.8742 11.569 22.7595 11.5045 22.6565C11.4401 22.5535 11.356 22.4641 11.257 22.3936C11.158 22.3231 11.0461 22.2728 10.9277 22.2455C10.8093 22.2182 10.6867 22.2145 10.5668 22.2346C10.447 22.2548 10.3323 22.2983 10.2292 22.3627C10.1262 22.4272 10.0369 22.5113 9.96637 22.6103L7.57871 25.9521C6.90574 23.007 6.93437 19.945 7.66229 17.0131C8.3902 14.0812 9.79703 11.3613 11.7693 9.07304C13.7416 6.78474 16.224 4.99202 19.0165 3.83948C21.8089 2.68695 24.8332 2.20686 27.8453 2.43795C30.8574 2.66904 33.773 3.60483 36.357 5.16985C38.9409 6.73487 41.1209 8.88529 42.721 11.4477C44.3211 14.01 45.2966 16.9126 45.5688 19.9213C45.8409 22.93 45.4021 25.9605 44.2878 28.7684C44.2429 28.881 44.2206 29.0013 44.2223 29.1225C44.2239 29.2437 44.2494 29.3633 44.2974 29.4747C44.3453 29.586 44.4148 29.6867 44.5017 29.7712C44.5886 29.8556 44.6914 29.9221 44.804 29.9668C44.9126 30.0097 45.0284 30.0316 45.1451 30.0313C45.3298 30.0315 45.5102 29.9763 45.663 29.8727C45.8159 29.7692 45.9342 29.6221 46.0025 29.4506C47.2215 26.3783 47.7024 23.0628 47.4066 19.7708C47.1107 16.4788 46.0464 13.3021 44.2991 10.4964C42.5518 7.69073 40.1704 5.33428 37.3465 3.61666C34.5225 1.89904 31.3349 0.868196 28.0399 0.607045C24.745 0.345894 21.4347 0.861731 18.3754 2.11306C15.3162 3.36439 12.5933 5.31628 10.4259 7.81171C8.25845 10.3071 6.70697 13.2764 5.89624 16.4808C5.08551 19.6851 5.03816 23.0349 5.75801 26.2609L2.4116 23.8732C2.31382 23.7944 2.20095 23.7363 2.07993 23.7027C1.95891 23.669 1.83228 23.6604 1.70782 23.6775C1.58337 23.6945 1.4637 23.7368 1.35618 23.8018C1.24866 23.8667 1.15555 23.953 1.08257 24.0552C1.00958 24.1574 0.958266 24.2735 0.931762 24.3963C0.905259 24.5191 0.904131 24.646 0.928446 24.7693C0.952762 24.8925 1.00201 25.0095 1.07316 25.113C1.14432 25.2165 1.23588 25.3044 1.34223 25.3713Z"
+                                        fill="#000000"></path>
+                                    <path
+                                        d="M48.1227 33.3685C46.279 31.1882 43.2552 32.1885 41.6235 32.7232C40.591 33.0642 38.1158 34.106 35.6774 35.1385C35.8245 34.3592 35.7246 33.5535 35.3917 32.8338C34.0734 29.8239 30.8192 30.4 28.4407 30.8241C27.7068 30.9835 26.9603 31.0775 26.2098 31.1053C24.9384 31.091 23.6835 30.8165 22.5223 30.2986C21.0142 29.6497 19.3835 29.3352 17.7424 29.3767C14.6 29.4349 11.5019 30.1279 8.63423 31.4141L8.11798 31.6261C3.83588 33.3316 1.99212 33.7188 1.99212 33.7188C1.82059 33.753 1.66232 33.8353 1.53581 33.9561C1.4093 34.0769 1.31977 34.2312 1.27767 34.401C1.24541 34.5346 0.521734 37.6275 2.57291 41.9742C4.33369 45.6617 6.39408 47.0767 7.80916 47.5884C7.95601 47.641 8.11381 47.6555 8.26778 47.6305C8.42176 47.6055 8.56688 47.5419 8.68955 47.4455C8.68955 47.4455 9.8465 46.5236 10.7315 46.0074C11.3169 45.6525 12.7412 45.4266 16.2259 46.3946C19.4499 47.2525 22.7639 47.7275 26.0992 47.8096C27.398 47.852 28.6946 47.6743 29.9342 47.2842C33.571 45.9014 42.421 41.292 45.901 39.4021C47.7448 38.3973 48.7496 37.3141 48.9801 36.088C49.0551 35.5993 49.0168 35.0999 48.8681 34.6284C48.7195 34.1568 48.4645 33.7258 48.1227 33.3685ZM47.164 35.7515C47.0488 36.3738 46.2836 37.0974 45.016 37.7889C42.0937 39.3883 32.9026 44.2051 29.2842 45.5649C26.7445 46.5144 20.3513 45.6294 16.7191 44.643C15.2679 44.1872 13.7631 43.9238 12.2434 43.8594C11.3814 43.8177 10.5246 44.0156 9.76814 44.431C9.14588 44.8089 8.43603 45.3252 7.98892 45.6571C6.60611 44.9657 5.29244 43.3985 4.23689 41.1767C3.32552 39.3784 2.89969 37.3732 3.00158 35.3597C4.97204 34.7844 6.90937 34.1012 8.80478 33.3132L9.33486 33.0965C11.9911 31.8965 14.8649 31.2534 17.7792 31.2067C19.1874 31.1701 20.5858 31.4489 21.8724 32.0225C23.2303 32.618 24.6949 32.9316 26.1775 32.9444C27.0469 32.9175 27.9121 32.8142 28.7634 32.6356C31.3031 32.1746 33.0178 32.0041 33.7 33.5574C33.8164 33.7964 33.8827 34.0568 33.8945 34.3224C33.9064 34.5879 33.8638 34.8531 33.7692 35.1016C33.511 35.7377 32.8473 36.3185 31.8056 36.7886C30.8837 37.1758 30.1923 37.4754 29.8881 37.5953C27.9337 38.3604 26.2513 38.0931 24.6242 37.8349L23.7299 37.6967C23.4854 37.6637 23.2378 37.7291 23.0416 37.8787C22.8454 38.0282 22.7166 38.2496 22.6836 38.4941C22.6506 38.7386 22.7161 38.9862 22.8656 39.1824C23.0152 39.3786 23.2365 39.5074 23.481 39.5404C23.7622 39.5773 24.048 39.6234 24.3338 39.6695C26.1176 39.9507 28.1365 40.2687 30.561 39.3238C30.8422 39.2132 31.4045 38.9781 32.1513 38.6554C32.2895 38.6001 32.4232 38.5448 32.5523 38.4849L33.7415 37.9778C36.7422 36.6872 40.8538 34.9172 42.2043 34.4747C44.3477 33.7695 45.8503 33.5528 46.7123 34.5577C47.27 35.2122 47.1917 35.6178 47.164 35.7515ZM25.4999 10.5613V11.7828C25.1803 11.8556 24.8707 11.967 24.5781 12.1146C24.1085 12.3511 23.7117 12.7104 23.4301 13.1544C23.1485 13.5984 22.9924 14.1104 22.9786 14.636C22.9141 16.6595 24.7348 17.3371 26.0623 17.8303C27.611 18.4064 28.0812 18.7014 28.012 19.4389C27.9981 19.6899 27.91 19.9311 27.7591 20.1321C27.6081 20.3331 27.401 20.4848 27.1639 20.5682C26.7203 20.7375 26.2441 20.8047 25.7709 20.7648C25.2978 20.7249 24.8396 20.579 24.4306 20.3378C24.3352 20.2627 24.226 20.2072 24.1092 20.1743C23.9924 20.1414 23.8703 20.1319 23.7498 20.1462C23.6293 20.1606 23.5128 20.1985 23.407 20.2579C23.3012 20.3172 23.2081 20.3968 23.133 20.4922C23.058 20.5875 23.0024 20.6967 22.9696 20.8135C22.9367 20.9303 22.9272 21.0524 22.9415 21.1729C22.9558 21.2934 22.9938 21.4099 23.0531 21.5157C23.1125 21.6216 23.1921 21.7147 23.2874 21.7897C23.9366 22.2557 24.7027 22.5318 25.4999 22.5871V23.6888C25.4999 23.9333 25.5971 24.1678 25.7699 24.3406C25.9428 24.5135 26.1773 24.6107 26.4218 24.6107C26.6663 24.6107 26.9008 24.5135 27.0737 24.3406C27.2466 24.1678 27.3437 23.9333 27.3437 23.6888V22.4489C27.5365 22.3999 27.7259 22.3383 27.9106 22.2645C28.4519 22.0508 28.9224 21.6896 29.2687 21.2219C29.615 20.7542 29.8232 20.1988 29.8696 19.6187C30.0909 17.3509 28.0674 16.5996 26.7306 16.1017C25.2971 15.5717 24.8224 15.2951 24.8408 14.6959C24.8456 14.4941 24.9068 14.2977 25.0176 14.1291C25.1285 13.9604 25.2844 13.8262 25.4677 13.7417C25.8929 13.5573 26.3573 13.4814 26.8191 13.5208C27.2809 13.5602 27.7257 13.7138 28.1135 13.9676C28.2161 14.036 28.3314 14.0831 28.4525 14.1062C28.5736 14.1292 28.6982 14.1277 28.8187 14.1018C28.9393 14.0758 29.0534 14.0259 29.1543 13.9551C29.2553 13.8842 29.341 13.7939 29.4064 13.6893C29.4718 13.5848 29.5155 13.4682 29.535 13.3464C29.5545 13.2246 29.5494 13.1002 29.52 12.9804C29.4905 12.8607 29.4374 12.7481 29.3636 12.6492C29.2899 12.5504 29.1971 12.4673 29.0906 12.405C28.5568 12.0718 27.9636 11.8449 27.3437 11.7367V10.5613C27.3437 10.3168 27.2466 10.0823 27.0737 9.90942C26.9008 9.73653 26.6663 9.6394 26.4218 9.6394C26.1773 9.6394 25.9428 9.73653 25.7699 9.90942C25.5971 10.0823 25.4999 10.3168 25.4999 10.5613Z"
+                                        fill="#000000"></path>
+                                    <path
+                                        d="M15.3594 17.125C15.3594 19.313 16.0082 21.4518 17.2237 23.271C18.4393 25.0902 20.167 26.5081 22.1884 27.3454C24.2098 28.1827 26.4341 28.4018 28.5801 27.9749C30.726 27.5481 32.6971 26.4945 34.2442 24.9474C35.7914 23.4003 36.845 21.4291 37.2718 19.2832C37.6987 17.1373 37.4796 14.913 36.6423 12.8916C35.805 10.8702 34.3871 9.14243 32.5679 7.92687C30.7487 6.7113 28.6098 6.0625 26.4219 6.0625C23.4879 6.0625 20.6741 7.22801 18.5995 9.30263C16.5249 11.3773 15.3594 14.191 15.3594 17.125ZM35.6406 17.125C35.6406 18.9483 35.1 20.7306 34.087 22.2467C33.074 23.7627 31.6342 24.9443 29.9497 25.642C28.2652 26.3398 26.4116 26.5223 24.6234 26.1666C22.8351 25.8109 21.1925 24.9329 19.9032 23.6436C18.614 22.3544 17.736 20.7118 17.3803 18.9235C17.0246 17.1352 17.2071 15.2816 17.9049 13.5971C18.6026 11.9126 19.7842 10.4729 21.3002 9.45989C22.8162 8.44692 24.5986 7.90625 26.4219 7.90625C28.8668 7.90625 31.2117 8.87751 32.9405 10.6064C34.6694 12.3352 35.6406 14.68 35.6406 17.125Z"
+                                        fill="#000000"></path>
+                                </svg>
+                                <p style="font-size: 16px;" class="my-2">14 Days return </p>
+                                <p style="font-size: 12px; font-family: 'Lato', sans-serif;">Lorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipiscing elit </p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="box text-center py-5 mx-auto" style="width: 50%;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="45" viewBox="0 0 41 45"
+                                    fill="none">
+                                    <path
+                                        d="M20.1902 44.4459C20.3045 44.4866 20.4257 44.5043 20.5468 44.498C20.6679 44.4918 20.7866 44.4616 20.896 44.4093C29.531 40.2659 35.527 34.7723 38.7206 28.0853C39.9948 25.4196 40.6667 22.39 40.6667 19.3256V10.5833C40.6667 10.3402 40.5701 10.1071 40.3982 9.93515C40.2263 9.76324 39.9932 9.66667 39.75 9.66667C35.2015 9.66667 31.5 5.96517 31.5 1.41667C31.5 1.17355 31.4035 0.940394 31.2316 0.768486C31.0597 0.596577 30.8265 0.5 30.5834 0.5H10.4167C10.1736 0.5 9.94043 0.596577 9.76853 0.768486C9.59662 0.940394 9.50004 1.17355 9.50004 1.41667C9.50004 5.96517 5.79854 9.66667 1.25004 9.66667C1.00693 9.66667 0.773768 9.76324 0.60186 9.93515C0.429951 10.1071 0.333374 10.3402 0.333374 10.5833V19.8078C0.333374 22.1233 0.690874 24.3251 1.39396 26.3509C4.38321 34.9529 10.7073 41.0423 20.1902 44.4459ZM2.16671 19.8078V11.4588C6.99754 11.0215 10.8549 7.16417 11.2921 2.33333H29.708C30.1452 7.16417 34.0025 11.0215 38.8334 11.4588V19.3256C38.8334 22.1187 38.222 24.8742 37.067 27.2942C34.0997 33.5073 28.5099 38.6517 20.4496 42.5897C11.5946 39.319 5.92596 33.808 3.12554 25.7487C2.48937 23.9172 2.16671 21.9188 2.16671 19.8078Z"
+                                        fill="#000"></path>
+                                    <path
+                                        d="M13.7781 30.75C13.953 30.75 14.1242 30.6997 14.2713 30.6052L32.9108 18.6885C33.0151 18.625 33.1057 18.5413 33.1772 18.4423C33.2487 18.3433 33.2998 18.231 33.3273 18.112C33.3548 17.993 33.3583 17.8698 33.3375 17.7494C33.3167 17.6291 33.2721 17.5141 33.2062 17.4112C33.1404 17.3084 33.0547 17.2197 32.9541 17.1504C32.8535 17.0812 32.7401 17.0327 32.6205 17.0079C32.5009 16.9831 32.3776 16.9824 32.2577 17.0059C32.1379 17.0294 32.0239 17.0767 31.9226 17.1448L13.9917 28.6087C12.9989 27.3226 10.8677 24.5652 10.2132 23.7567C10.0603 23.5677 9.83852 23.4472 9.59673 23.4217C9.35494 23.3961 9.11292 23.4677 8.92389 23.6206C8.73487 23.7735 8.61434 23.9953 8.58881 24.2371C8.56328 24.4789 8.63485 24.7209 8.78777 24.9099C9.61918 25.9366 13.0182 30.3485 13.053 30.3925C13.2318 30.6262 13.5022 30.75 13.7781 30.75Z"
+                                        fill="#000"></path>
+                                </svg>
+                                <p style="font-size: 16px;" class="my-2">Secure Payment</p>
+                                <p style="font-size: 12px; font-family: 'Lato', sans-serif;">Lorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipiscing elit </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------services-end---------- -->
+    <!-- ------------footer-startr--------- -->
+    <footer style="background-color: #f9f9f9;" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="assets/images/logo.png" alt="" width="59px" class="mb-2">
+                    <p style="font-size: 12px; font-family: 'Lato', sans-serif;" class="mb-1"><a
+                            href="#">demo@gmail.com</a></p>
+                    <p style="font-size: 12px; font-family: 'Lato', sans-serif;">012345678</p>
+                </div>
+                <div class="col-3">
+                    <ul>
+                        <li>
+                            <p class="mb-2 text-uppercase">my account</p>
+                        </li>
+                        <li>
+                            <a href="#" style="font-size: 12px; font-family: 'Lato', sans-serif;"
+                                class="text-capitalize">career at eldy</a>
+                        </li>
+                        <li>
+                            <a href="#" style="font-size: 12px; font-family: 'Lato', sans-serif;"
+                                class="text-capitalize">about us</a>
+                        </li>
+                        <li>
+                            <a href="#" style="font-size: 12px; font-family: 'Lato', sans-serif;"
+                                class="text-capitalize">sustainability</a>
+                        </li>
+                        <li>
+                            <a href="#" style="font-size: 12px; font-family: 'Lato', sans-serif;"
+                                class="text-capitalize">press</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul>
+                        <li>
+                            <p class="mb-2 text-uppercase">help</p>
+                        </li>
+                        <li>
+                            <a href="#" style="font-size: 12px; font-family: 'Lato', sans-serif;"
+                                class="text-capitalize">faq</a>
+                        </li>
+                        <li>
+                            <a href="#" style="font-size: 12px; font-family: 'Lato', sans-serif;"
+                                class="text-capitalize">shipping</a>
+                        </li>
+                        <li>
+                            <a href="#" style="font-size: 12px; font-family: 'Lato', sans-serif;"
+                                class="text-capitalize">returns</a>
+                        </li>
+                        <li>
+                            <a href="#" style="font-size: 12px; font-family: 'Lato', sans-serif;"
+                                class="text-capitalize">order status</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li>
+                            <p class="mb-2 text-uppercase">newsletter</p>
+                        </li>
+                        <li>
+                            <a href="#" style="font-size: 12px; font-family: 'Lato', sans-serif;"
+                                class="text-capitalize">Sign-up to receive 10% off your next purchase. Plus hear about
+                                new arrivals and offers.</a>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <input type="text" placeholder="Email.."
+                                style="border: 0; border-bottom: 1px solid grey;width: 50%;">
+                            <div class="btn bg-light p-3 d-block mx-auto"
+                                style="border-radius: 1px;font-size: 12px;font-weight: 500;width: 40%;">Subscribe<i
+                                    class="fa-solid fa-arrow-right ms-2  "></i></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer style="background-color: black;">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <p class="text-white py-3 m-0 text-center" style=" font-family: 'Lato', sans-serif;"><a href="#"
+                        style="text-decoration: underline;">Copyright@2023Eldy</a>.All rights reserved.</p>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- ------------footer-end--------- -->
+
+
+    <!-- ---------------animate------------ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
